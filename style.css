@@ -38,8 +38,7 @@ body.dark {
   --shadow-lg: 0 10px 30px rgba(0,0,0,0.4);
 }
 
-html, body {
-  height: 100%;
+
 }
 
 body {
@@ -47,7 +46,6 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
-  padding-bottom: 90px;
   transition: background 0.3s, color 0.3s;
   min-height: 100vh;
 }
@@ -132,7 +130,7 @@ body.dark .stat-pill { color: #c7d2fe; }
 .container {
   max-width: 900px;
   margin: 0 auto;
-  padding: 20px 16px;
+  padding: 20px 16px 120px 16px;
 }
 
 /* ============ PAGES ============ */
